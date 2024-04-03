@@ -25,6 +25,8 @@ class TabBarProperties {
     this.tabAlignment,
     this.splashFactory,
     this.overlayColor,
+    this.dividerColor,
+    this.dividerHeight,
   });
 
   /// The width of the [TabBar].
@@ -116,4 +118,8 @@ class TabBarProperties {
   final InteractiveInkFeatureFactory? splashFactory;
 
   final MaterialStateProperty<Color?>? overlayColor;
+
+  final Color? dividerColor;
+
+  final double? dividerHeight;
 }

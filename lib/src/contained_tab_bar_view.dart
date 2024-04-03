@@ -178,6 +178,8 @@ class ContainedTabBarViewState extends State<ContainedTabBarView>
             tabAlignment: widget.tabBarProperties.tabAlignment,
             splashFactory: widget.tabBarProperties.splashFactory,
             overlayColor: widget.tabBarProperties.overlayColor,
+            dividerColor: widget.tabBarProperties.dividerColor,
+            dividerHeight: widget.tabBarProperties.dividerHeight,
           ),
         ),
       ),

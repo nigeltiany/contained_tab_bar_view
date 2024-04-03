@@ -23,6 +23,8 @@ class TabBarProperties {
     this.unselectedLabelColor,
     this.unselectedLabelStyle,
     this.tabAlignment,
+    this.splashFactory,
+    this.overlayColor,
   });
 
   /// The width of the [TabBar].
@@ -110,4 +112,8 @@ class TabBarProperties {
   final TextStyle? unselectedLabelStyle;
 
   final TabAlignment? tabAlignment;
+
+  final InteractiveInkFeatureFactory? splashFactory;
+
+  final MaterialStateProperty<Color?>? overlayColor;
 }

@@ -175,6 +175,7 @@ class ContainedTabBarViewState extends State<ContainedTabBarView>
             labelStyle: widget.tabBarProperties.labelStyle,
             unselectedLabelColor: widget.tabBarProperties.unselectedLabelColor,
             unselectedLabelStyle: widget.tabBarProperties.unselectedLabelStyle,
+            tabAlignment: widget.tabBarProperties.tabAlignment,
           ),
         ),
       ),
